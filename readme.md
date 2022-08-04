@@ -24,4 +24,4 @@ In this project i have created a landing page from scratch. And i have learnt a 
 ![image](images/page.png)
 
 ## You can Preview it Live on Below Link :
-**[Live Link !](https://09-api-services-page.netlify.app/)**
+**[Live Link !](https://10-furnitures-landing-page.netlify.app/)**
