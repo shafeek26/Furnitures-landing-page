@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Poppins:wght@500;600;700&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/furniture.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+/* Navbar styling */
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    padding: 20px;
+}
+.logo{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    text-transform: uppercase;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items{
+    margin-left: 30px;
+}
+hr{
+    position: absolute;
+    right: 2rem;
+    width: 75%;
+    border: 1.2px solid #ffffff;
+    display: inline;
+}
+.contact{
+    margin-right: 20px;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-details{
+    margin-left: 20px;
+}
+/* Hero section styling goes her */
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+.left-side{
+    width: 50%;
+    margin-left: 40px;
+    letter-spacing: 1px;
+}
+.heading{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.btn{
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.box{
+    width: 1000px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* right side styling */
+
+.right-side{
+    width: 50%;
+    display: flex;
+    color: #ffffff;
+}
+.box{
+    font-family: "Poppins",sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    height: 150px;
+    background-color: rgba(177, 177, 177, 0.4);
+    padding: 20px;
+}
+.box-1{
+    position: relative;
+    top: 13rem;
+    right: 10rem;
+}
+.box-2{
+    position: relative;
+    top: 0;
+    right: 10rem;
+}
+.icon{
+    font-size: 30px;
+    color: #041c47;
+}
