@@ -125,3 +125,40 @@ hr{
     font-size: 30px;
     color: #041c47;
 }
+.fa-bars{
+    display: none;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+/* media querries goes here */
+
+@media screen and (max-width:800px) {
+    .nav_list{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left-side{
+        text-align: center;
+    }
+    .box{
+        padding: 10px;
+    }
+    .box-1{
+        top: 10rem;
+    }
+    .box-2{
+        top: 0;
+        right: 0;
+    }
+}
